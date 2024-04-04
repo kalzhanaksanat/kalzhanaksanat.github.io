@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <meta property="og:title" content="Заголовок страницы в OG">
+    <meta property="og:description" content="Описание страницы в OG">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:url" content="https://example.com/">
+  </head>
+  <body>
+    <header>
+      <h1>Личный сайт</h1>
+      <p> с информацией обо мне</p>
+      <nav>
+        <ul>
+          <li><a href="#audio" class="nav-link">Аудио</a></li> 
+          <div id="audio" class="section">
+ <h2>Аудио</h2>
+ <audio controls>
+ <source src="audio.mp3">
+ </audio>
+</div>
+        </ul>
+      </nav>
+       <nav>
+        <ul>
+      <li><a href="#video" class="nav-link">Видео</a></li>
+      <div id="video" class="section">
+ <h2>Видео</h2>
+ <video controls>
+ <source src="https://www.youtube.com/embed/LOL8jMG7J7E?si=Y0CvcIJHgbnYuank" type="video/mp4">
+ </video>
+      <div id="video" class="section">
+ <h2>Видео</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/LOL8jMG7J7E?si=Y0CvcIJHgbnYuank" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div> 
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2>Первая секция</h2>
+          <p>Она обо мне</p>
+        </section>
+        <section>
+          <h2>Вторая секция</h2>
+          <p>Она тоже обо мне</p>
+        </section>
+        <section>
+          <h2>И третья</h2>
+          <p>Вы уже должны были начать догадываться.</p>
+        </section>
+      </article>
+    </main>
+    <footer>
+    </footer>
+    <!-- сюда можно подключить jquery <script src="scripts/app.js" defer></script> -->
+  </body>
+</html>
